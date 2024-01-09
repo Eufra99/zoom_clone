@@ -43,5 +43,24 @@
 	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<!-- TODO Replace this value: -->
+				<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+				<string>com.googleusercontent.apps.995618468785-11f8737mm0marvoqtp18dbhggpj7veei</string>
+			</array>
+		</dict>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>The app needs access to your camera for meetings.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>The app needs access to your microphone for meetings.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
 </dict>
 </plist>
