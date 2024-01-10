@@ -16,6 +16,10 @@ class MeetingScreen extends StatelessWidget {
         roomName: roomName, isAudioMuted: true, isVideoMuted: true);
   }
 
+  joinMeetig(BuildContext context) {
+    Navigator.pushNamed(context, '/video-call');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -28,7 +32,7 @@ class MeetingScreen extends StatelessWidget {
                 icon: Icons.videocam,
                 text: 'New Meeting'),
             HomeMeetingButton(
-                onPressed: () {},
+                onPressed: () => joinMeetig(context),
                 icon: Icons.add_box_rounded,
                 text: 'Join Meeting'),
             HomeMeetingButton(
