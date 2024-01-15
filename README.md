@@ -27,13 +27,12 @@ This project showcases the power of Flutter and Firebase in building feature-ric
 * Log out
 
 ## Screenshots
-<img src="screenshot/loginScreen.png" width="200" />
-<img src="screenshot/homeScreen.png" width="200" alt="App Screenshot" />
-<img src="screenshot/createMeetingScreen.png" width="200" alt="App Screenshot" />
+<img src="screenshot/loginScreen.png" width="200" /> <img src="screenshot/homeScreen.png" width="200" alt="App Screenshot" /> <img src="screenshot/createMeetingScreen.png" width="200" alt="App Screenshot" />
 
-<img src="screenshot/joinMeetingScreen.png" width="200" alt="App Screenshot" />
-<img src="screenshot/meetingHistoryScreen.png" width="200" alt="App Screenshot" />
-<img src="screenshot/logoutScreen.png" width="200" alt="App Screenshot" />
+
+<img src="screenshot/joinMeetingScreen.png" width="200" alt="App Screenshot" /> <img src="screenshot/meetingHistoryScreen.png" width="200" alt="App Screenshot" /> <img src="screenshot/logoutScreen.png" width="200" alt="App Screenshot" />
+
+
 
 ## Documentation
 
